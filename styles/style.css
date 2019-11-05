@@ -1,0 +1,20 @@
+body {
+    background-color: #00445f !important;
+    
+}
+h1, h2, ul, li, p, h3, figcaption {
+    color: rgb(233, 233, 233);
+    font-family: "Montserrat";
+}
+a {
+    font-family: "Montserrat";
+}
+.main-title {
+    color: rgb(20, 20, 20)
+}
+.main-header {
+    margin-bottom: 0px !important;
+}
+.main-nav {
+    margin-bottom: 16px;
+}
