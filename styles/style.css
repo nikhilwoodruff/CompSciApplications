@@ -25,3 +25,11 @@ figcaption{
 .figure-caption{
     color: whitesmoke;
 }
+
+.align-left{
+    text-align: left;
+}
+
+.align-right{
+    text-align: right;
+}
