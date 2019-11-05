@@ -18,7 +18,7 @@ a {
 .main-nav {
     margin-bottom: 16px;
 }
-
-.figure-caption{
-    color: whitesmoke
+figcaption{
+    color: whitesmoke;
+    text-align: center;
 }
