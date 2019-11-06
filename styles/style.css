@@ -18,14 +18,13 @@ a {
 .main-nav {
     margin-bottom: 16px;
 }
+.figure-caption{
+    color: whitesmoke !important;
+}
 figcaption{
     color: whitesmoke;
     text-align: center;
 }
-.figure-caption{
-    color: whitesmoke;
-}
-
 .align-left{
     text-align: left;
 }
