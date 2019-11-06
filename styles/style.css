@@ -32,3 +32,6 @@ figcaption{
 .align-right{
     text-align: right;
 }
+.navbar-light{
+    background-color: lightgrey !important;
+}
