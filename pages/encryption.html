@@ -34,21 +34,36 @@
                 <div class="col">
                     <h2>Overview</h2>
                     <p>In cryptography, encryption is a process in which information is encoded such that only authorised users can access it. More information is available on Wikipedia <a href="https://en.wikipedia.org/wiki/Encryption">here</a>.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
                     <h2>Early uses of encryption</h2>
-                    <ul>
-                        <li>
-                            <h4>Ancient Greece, circa 600 BC</h4>
-                            <p>One of the earliest known applications of encryption techniques was around 600 BC by the Spartans of Ancient Greece for the purpose of sending sensitive messages during battle. The encryption used was a leather strap wrapped around a wooden rod. When wrapped around the rod of correct radius, the message letters line up correctly and a message can be read.</p>
-                        </li>
-                        <li>
-                            <h4>Ancient Rome, circa 60 BC</h4>
-                            <p>Around 60 BC, Julius Caesar invented the substitution cipher: this cipher shifts each letter forwards along the alphabet by a certain number of places. For example, using a shift of 3, A would become D, and Y would become B (as the end of the alphabet points to the start).</p>
-                        </li>
-                    </ul>
+                    <h6>Ancient Greece, circa 600 BC</h6>
+                    <p>One of the earliest known applications of encryption techniques was around 600 BC by the Spartans of Ancient Greece for the purpose of sending sensitive messages during battle. The encryption used was a leather strap wrapped around a wooden rod. When wrapped around the rod of correct radius, the message letters line up correctly and a message can be read.</p>
+                </div>
+                <div class="col-4">
                     <div class="container text-center">
-                        <image width="250px" src="../images/encryption-caesar.png" />
+                        <image width="250px" src="../images/scytale.png" />
+                        <figcaption>Scytale encryption</figcaption>
                     </div>
-                    <figcaption>Caesar cipher encryption</figcaption>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-8">
+                        <h6>Ancient Rome, circa 60 BC</h6>
+                        <p>Around 60 BC, Julius Caesar invented the substitution cipher: this cipher shifts each letter forwards along the alphabet by a certain number of places. For example, using a shift of 3, A would become D, and Y would become B (as the end of the alphabet points to the start).</p>
+                    </div>
+                    <div class="col-4">
+                        <div class="container text-center">
+                            <image width="250px" src="../images/encryption-caesar.png" />
+                            <figcaption>Caesar cipher encryption</figcaption>
+                        </div>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
                     <h2>Modern uses of encryption</h2>
                     <h3>Storage encryption</h3>
                     <p>Information is often encrypted on storage, so that to any unauthorised person attempting to read the data without the key, it is unreadable. This can either be done wither with disk-level encryption, or filesystem-level encryption. Disk-level encryption encrypts the entire disk at shutdown, and decrypts it at startup - however, this creates a vulnerability if the computer is maliciously obtained at runtime: filesystem-level encryption aims to solve this by encrypting  files when they are not in use.</p>
@@ -66,6 +81,7 @@
                     </ul>
                 </div>
             </div>
+            <div class="col-2"></div>
         </div>
         <nav class = "navbar navbar-expand-lg bottom navbar-light">
             <div class = "navbar text col-11">
