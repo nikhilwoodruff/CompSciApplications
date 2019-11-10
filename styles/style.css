@@ -2,7 +2,7 @@ body {
     background-color: #00445f !important;
     
 }
-h1, h2, ul, li, p, h3, figcaption {
+h1, h2, ul, li, p, h3, h4, h5, h6, figcaption {
     color: rgb(233, 233, 233);
     font-family: "Montserrat";
 }
@@ -31,4 +31,7 @@ figcaption{
 
 .align-right{
     text-align: right;
+}
+.navbar-light{
+    background-color: lightgrey !important;
 }
