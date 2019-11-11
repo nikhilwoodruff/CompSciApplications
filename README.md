@@ -1,2 +1,2 @@
 # CompSciApplications
-A website dedicated to real-life applications of computer science concepts.
+A website dedicated to various applications of computer science.
