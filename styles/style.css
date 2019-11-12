@@ -18,11 +18,8 @@ a {
 .main-nav {
     margin-bottom: 16px;
 }
-.figure-caption{
-    color: whitesmoke !important;
-}
 figcaption{
-    color: whitesmoke;
+    color: whitesmoke !important;
     text-align: center;
 }
 .align-left{
